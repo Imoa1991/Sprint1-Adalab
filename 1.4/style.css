@@ -25,7 +25,28 @@ p{
   align-items: center;
   border: 3px solid pink;
 }
-.colums {
-flex-direction: row
+body {
+  margin:0;
+  }
+.containerCenter{
+    max-width: 800px;
+    margin: 0 auto;
+  }
+.noticiaHeader{
+  border: 1px solid pink;
+}
+.noticiaHeader img {
+  width:100%;
+  }
+.columns {
+flex-direction: row;
 flex-wrap: wrap;
+display: flex;
+}
+.noticia {
+  width: 398px;
+  border: 1px solid pink;
+}
+.noticia img{
+  width: 100%;
 }
