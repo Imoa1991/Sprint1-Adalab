@@ -1,5 +1,5 @@
 html{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body{/*quitamos magenes del body*/
   width: 320px;/*ancho máximo de la caja*/
@@ -11,16 +11,6 @@ body{/*quitamos magenes del body*/
   top: 0;
   left: 0;
   z-index: 1;
-  }
-.container {
-  padding: 0;
-  margin:0;
-}
-.headerImage{
-height:421px;
-background-image: url("4cats.jpg");
-background-size: cover;
-position: relative;
 }
 .header1{
   height: 60px;/*altura especificada*/
@@ -47,8 +37,8 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   justify-content: space-between;
 }
 .item{
- padding: 5px 5px 5px 5px;
- text-transform: uppercase;
+  padding: 5px 5px 5px 5px;
+  text-transform: uppercase;
 
 }
 .a-header:link{/*quitamos el subrayado del enlace y ponemos color de la fuente, la fuente y el tamaño*/
@@ -64,6 +54,16 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   font-size: 16px;
 }
 /*Contenido principal*/
+.headerImage{
+  height:421px;
+  background-image: url("4cats.jpg");
+  background-size: cover;
+  position: relative;
+}
+.container {
+  padding: 0;
+  margin:0;
+}
 .claimContainer{
   display: flex;
   position: absolute;
@@ -95,7 +95,7 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   text-align: center;
   padding: 20px;
   margin: 0px;
-  }
+}
 .titles-section {
   color: #099d8d;
   font-size: 22px;
@@ -132,19 +132,10 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   border-right: 20px solid transparent;
   border-top: 20px solid #ffffff;
 }
-
-
-
-
-
 /*contenido para describir cada una del equipo*/
-
 .profile{
   padding: 60px 60px 0px 60px;
-
-
 }
-
 .photo {
   width: 180px;
   height: 180px;
@@ -152,7 +143,6 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   margin: 0 auto;
   border-radius: 30%;
   display: block;
-
 }
 .photo-img {
   height: 100%;
@@ -165,7 +155,6 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   width: 170px;
 }
 .paragraph {
-
   margin: 15px;
   font-family: 'open sans', sans-serif;
   font-size: 16px;
@@ -188,7 +177,6 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   color: #000000;
   font-size: 20px;
   font-family: 'open sans', sans-serif;
-
 }
 .list-rrhh {
   list-style: none;
@@ -199,12 +187,9 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   align-items: center;
   justify-content: space-between;
   height: 40px;
-
 }
 .list-item-rrhh {
-
   list-style: none;
-
 }
 .list-item-rrhh::before  {
   content: "·";
@@ -220,10 +205,6 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 .rrss:link {
   color: #099D8D;
 }
-
-
-
-
 /*Footer*/
 .pie{
   margin:0;
@@ -242,13 +223,13 @@ hr{
   margin-bottom: 20px;
 }
 .flex-list-footer{
-padding: 0;
-list-style: none;
+  padding: 0;
+  list-style: none;
 }
 .item-footer{
-list-style: none;
-margin: 0;
-padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .a-footer:link{
   text-decoration: none;
@@ -256,8 +237,6 @@ padding: 0;
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
-
-
 }
 .a-footer:visited{
   text-decoration: none;
@@ -265,13 +244,10 @@ padding: 0;
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
-
 }
-
 .logo-footer{
-width: 115.9px;
-height: 45px;
-margin-top: 30px;
-margin-bottom: 45px;
-
+  width: 115.9px;
+  height: 45px;
+  margin-top: 30px;
+  margin-bottom: 45px;
 }
