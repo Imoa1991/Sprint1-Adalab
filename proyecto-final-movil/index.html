@@ -14,10 +14,17 @@
       <span class="header1">
         <h1>The green ladies</h1>
       </span>
-      <nav>
+      <nav class="menu-sub">
         <ul class="flex-list">
           <li class="item" ><a class="a-header" href="#equipo"  title="Ir a Equipo">equipo</a></li>
-          <li class="item" ><a class="a-header" href="#quienes"  title="Ir a Quienes somos">quienes somos</a></li>
+          <li class="item" ><a class="a-header" href="#quienes"  title="Ir a Quienes somos">quienes somos</a>
+            <ul>
+              <li><a href="#estefania">Estefania Salgado</a></li>
+              <li><a href="#irene">Irene Ordóñez</a></li>
+              <li><a href="#ester">Ester González</a></li>
+              <li><a href="#sandra">Sandra García</a></li>
+            </ul>
+          </li>
           <li class="item" ><a class="a-header" href="contacto.html#contacto" title="Ir a Contacto">contacto</a></li>
         </ul>
       </nav>
@@ -28,10 +35,11 @@
       <div class="claimContainer">
         <h2 class="claim">¿Quién dijo miedo?</h2>
       </div>
+      <div id="equipo"></div>
     </div>
     <section>
       <div class="container">
-        <h2 class="titles-section" id="equipo">Equipo</h2>
+        <h2 class="titles-section">Equipo</h2>
         <p>Somos mujeres muy diferentes pero con un mismo objetivo y no nos faltan fuerza, ganas y entusiasmo para conseguirlo.
           Cada una venimos de experiencias distintas, marketing,redactora, medio ambiente y ventas, pero nos une las ganas de entrar en el mundo de la tecnología como programadoras.</p>
           <p>Luchamos por cada reto que nos planteamos en la vida y como nos gusta complicarnos la existencia nos encontramos ahora en Adalab.</p>
@@ -53,24 +61,26 @@
         </section>
         <!--AÑADIMOS EL APARTADO DE EQUIPO CADA UNA DE NOSOTRAS NOS DESCRIBIMOS-->
         <!--perfil de fany-->
+        <div id="estefania"></div>
         <div class="profile">
-          <h2 class="name" id="quienes">Quiénes somos</h2>
+
+          <h2 class="name">Quiénes somos</h2>
           <div class="photo">
             <img src="Fa_180x180.jpg" alt="Fany" class="photo-img">
           </div>
           <h3 class="first-name">Estefanía Salgado</h3>
           <div class="paragraph">
-            <p>Además de ser mamá a tiempo completo de dos terremotos, algunas de las cosas que más me apasionan no tienen nada que ver con la maternidad. La primera, y que me ha enseñado muchas cosas a lo largo de mi vida, es el cine. He visto más de 2500 películas a lo largo de mi vida pero, sin duda, la película que me hizo interesarme más directamente por el cine fue “El verdugo”, una peli española de Luis García Berlanga. Algo parecido me pasó con los libros. Uno de los que más me impactó fue “Ensayo sobre la ceguera” y también despertó mi pasión por la lectura, en especial por las novelas de fantasía épica y ciencia ficción. A raíz de esto acabé estudiando Biblioteconomía y Documentación.
+            <p>Además de ser una apasionada mamá, hay muchas cosas que me encantan. La primera es el cine. He visto más de 2500 películas pero, sin duda, la peli que me hizo interesarme más por el cine fue “El verdugo”. Algo parecido me pasó con los libros. Uno de los que más me impactó fue “Ensayo sobre la ceguera” que despertó mi pasión por la lectura.
+              Otra de las cosas que más me gusta es la creatividad: escribir (que ha sido mi foco profesional hasta hoy), hacer manualidades, cocinar...
 
-              Otra de las cosas que más me gusta es la creatividad. De ahí que muchos años de mi vida haya trabajado como redactora, tanto a nivel profesional como personal con mi propio blog de cine (como no podía ser de otra manera). Me encantan las manualidades, estoy aprendiendo crochet y tengo bastante mano en la cocina. Y, aunque mucha gente se sorprende, me gusta jugar a juegos de rol y a la consola.
-
-              Todo esto son mis pasiones pero ahora lo que de verdad quiero es ser una #adalaber, y por eso estamos aquí.</p>
+              Todo esto es un resumen de mis pasiones, pero ahora lo que de verdad quiero es ser programadora front-end, y por eso estoy aquí.</p>
             </div>
             <ul class="list-rrhh">
-              <li class="list-item-rrhh"><a href="https://twitter.com/fanyfa" target="_blank" title="Ir a twitter" class="rrss"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-item-rrhh"><a href="https://es.linkedin.com/in/estefan%C3%ADa-salgado-alameda-60231b27" target="_blank" title="Ir a linkedin" class="rrss"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="list-item-rrhh"><a href="#"  title="Ir a github" class="rrss"><i class="fab fa-github-alt"></i></a></li>
-              <li class="list-item-rrhh" ><a href="#" title="Ir a correo" class="rrss"><i class="fas fa-envelope"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="https://twitter.com/fanyfa" target="_blank" title="Ir a twitter" class="rrss"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="https://es.linkedin.com/in/estefan%C3%ADa-salgado-alameda-60231b27" target="_blank" title="Ir a linkedin" class="rrss"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="https://www.github.com/Fanyfa"  title="Ir a github" class="rrss"><i class="fab fa-github-alt"></i></a></li>
+              <li class="list-item-rrhh" ><a target="_blank" href="mailto:estefania.salgado@gmail.com" title="Ir a correo" class="rrss"><i class="fas fa-envelope"></i></a></li>
+              <div id="irene"></div>
             </ul>
 
             <!--perfil de irene-->
@@ -80,63 +90,61 @@
             </div>
             <h3 class="first-name">Irene Ordoñez</h3>
             <div class="paragraph">
-              <p>Mi pasión por viajar me hizo darme cuenta de la importancia de un buen estado del medio ambiente, lo que me impulsó a estudiar Ciencias Ambientales con el objetivo de conservar
-                este bien común tan importante.
-                Al considerarme una persona proactiva, me he interesado por otros ámbitos como la eficiencia energética y la programación web front-end. Siempre buscando nuevos retos en los que poder
-                desarrollarme como profesional y como persona sin perder el enfoque en la sostenibilidad y mejora del medio ambiente.
+              <p>Mi pasión por viajar me hizo darme cuenta de la importancia de un buen estado del medio ambiente, lo que me impulsó a estudiar Ciencias Ambientales.
+
+                Al considerarme una persona proactiva, me he interesado por otros ámbitos como la eficiencia energética y la programación web front-end. Siempre buscando nuevos retos en los que poder desarrollarme como profesional y como persona.
+
                 Además, me apasiona el mundo de la escalada, el bodyboard, la defensa personal, el buceo, actividades relacionadas con la naturaleza, la música y la lectura.
               </p>
             </div>
             <ul class="list-rrhh">
-              <li class="list-item-rrhh"><a href="#" title="Ir a twitter" class="rrss"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-item-rrhh"><a href="www.linkedin.com/in/ireneordonez"  title="Ir a linkedin" class="rrss"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="list-item-rrhh"><a href="#" id="go-to-equipo" title="Ir a github" class="rrss"><i class="fab fa-github-alt"></i></a></li>
-              <li class="list-item-rrhh" ><a href="#" id="go-to-equipo" title="Ir a correo" class="rrss"><i class="fas fa-envelope"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="https://twitter.com/Imoa91" title="Ir a twitter" class="rrss"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="https://www.linkedin.com/in/ireneordonez"  title="Ir a linkedin" class="rrss"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="https://www.github.com/Imoa1991" id="go-to-equipo" title="Ir a github" class="rrss"><i class="fab fa-github-alt"></i></a></li>
+              <li class="list-item-rrhh" ><a target="_blank" href="mailto:ordonez.im@gmail.com" id="go-to-equipo" title="Ir a correo" class="rrss"><i class="fas fa-envelope"></i></a></li>
+              <div id="ester"></div>
             </ul>
             <!--perfil de ester-->
+
             <div class="photo">
               <img src="Ester_180x180.jpg" alt="Fany" class="photo-img">
             </div>
             <h3 class="first-name">Ester González</h3>
             <div class="paragraph">
               <p>
-                Me licencie en Ade, hace ocho años, siempre me han gustado los números, resolver problemas. Estaba en una situación profesional rara, no
-                encontraba nada que me gustase. Y estar trabajando en algo que te da igual y hacerlo bien igualmente, es muy agobiante, te sientes atrapada.
-                Decidí cambiar mi vida y dejar todo atrás, la ciudad que me vio pasar de niña a mujer, a mi pareja y un trabajo en el que no me sentia
-                realizada (que gusto da dejar algo que no te hace feliz). Así es, como he llegado a formar parte del fantástico proyecto de Adalab, que nos
-                da la oportunidad de saltar al vacío, pero sabiendo que nunca más estaremos solas.
-                Y ¡sí, soy una loca de los perros! me encanta lo que son capaces de transmitir, esa calma tan necesaria, cuando todo parece que va mal.Muero de
-                amor por mi pequeño Nico.
+                Me licencié en ADE porque siempre me han gustado los números, resolver problemas. A nivel profesional, estaba en una situación rara, no encontraba nada que me gustase, y estar trabajar en algo que te da igual es muy agobiante. Decidí cambiar mi vida y dejar todo atrás, mi cuidad, mi pareja, un trabajo... Así es como he llegado a formar parte del fantástico proyecto de Adalab, que me da la oportunidad de saltar al vacío, pero sabiendo que nunca más estaremos solas.
+
+                Y ¡sí, soy una loca de los perros! Me encanta lo que son capaces de transmitir, esa calma cuando parece que todo va mal. Muero de amor por mi pequeño Nico.
+
                 Y por último, soy jugadora de Splatoon, ¡siempre con rodillo! a pintar se ha dicho.
               </p>
             </div>
             <ul class="list-rrhh">
-              <li class="list-item-rrhh"><a href="https://twitter.com/estergonzalezg"  target="_blank" title="Ir a twitter" class="rrss"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-item-rrhh"><a href="#"  title="Ir a linkedin" class="rrss"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="list-item-rrhh"><a href="github.com/EsterGonzalezG"  target="_blank" title="Ir a github" class="rrss"><i class="fab fa-github-alt"></i></a></li>
-              <li class="list-item-rrhh" ><a href="mailto:estergonzalezgalindo@gmail.com" target="_blank" title="Ir a correo" class="rrss"><i class="fas fa-envelope"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="https://twitter.com/estergonzalezg"  target="_blank" title="Ir a twitter" class="rrss"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="#" title="Ir a linkedin" class="rrss"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="https://www.github.com/EsterGonzalezG"  target="_blank" title="Ir a github" class="rrss"><i class="fab fa-github-alt"></i></a></li>
+              <li class="list-item-rrhh" ><a target="_blank" href="mailto:estergonzalezgalindo@gmail.com" target="_blank" title="Ir a correo" class="rrss"><i class="fas fa-envelope"></i></a></li>
+              <div id="sandra"></div>
             </ul>
 
             <!--perfil de sandra-->
+
             <div class="photo">
               <img src="sandra180x180.jpg" alt="Fany" class="photo-img">
             </div>
             <h3 class="first-name">Sandra García</h3>
             <div class="paragraph">
               <p>
-                Si algo puedo decir de mi, que me encanta y además es verdad, es que soy muy creativa y resolutiva. Me encanta montar cosas, crearlas, arreglarlas, buscar soluciones útiles y sentir que soy capaz de hacer muchas cosas por mi misma. Me encanta la costura (aunque tengo mucho que aprender aún), el bricolaje, la caligrafía, hacer agujeros en la pared con el taladro y pasar todo el tiempo que me sea posible con el mayor de mis tesoros, mi hija de 3 años.
-                A lo largo de mi vida he dudado mucho sobre qué quería hacer, qué profesión elegir, qué tipo de trabajo quería; y nunca lo tuve tan claro hasta que salí de España y de mi zona de confort para darme cuenta de que después de aquella experiencia sería capaz de cualquier cosa.
-                Viví y trabajé en Francia en una de las páginas webs más importantes de Europa. Aquella experiencia me hizo darme cuenta de que mi sitio estaba en el mundo digital asique me empecé a especializar en el sector e hice un máster en marketing digital y e-commerce.
-                Yo estaba entusiasmada con la idea de volver a dedicarme a algo relacionado, me he encontrado con con negativas y sin oportunidades, en resumen, no hay hueco para un perfil junior como es mi caso.
+                Viví y trabajé en Francia en la web vente-privee.com. Aquella experiencia me hizo darme cuenta de que mi sitio estaba en el mundo digital asique me empecé a especializar en el sector e hice un máster en marketing digital y e-commerce.
+
                 Cuando me hablaron de Adalab no lo dudé ni un segundo, me pareció la mejor oportunidad para volver a intentar hacerme un hueco en el sector digital y descubrir todo un mundo dentro de la programación Front End.
-                Ahora sólo espero que Adalab siga creciendo para que más mujeres puedan sentirse como hoy me siento yo, agradecida y realizada.
               </p>
             </div>
             <ul class="list-rrhh">
-              <li class="list-item-rrhh"><a href="#" id="go-to-equipo" title="Ir a twitter" class="rrss"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-item-rrhh"><a href="#" id="go-to-equipo" title="Ir a linkedin" class="rrss"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="list-item-rrhh"><a href="#" id="go-to-equipo" title="Ir a github" class="rrss"><i class="fab fa-github-alt"></i></a></li>
-              <li class="list-item-rrhh" ><a href="mailto:Sandra.gcanete@gmail.com" id="go-to-equipo" title="Ir a correo" class="rrss"><i class="fas fa-envelope"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="https://twitter.com/SANDRAGC" id="go-to-equipo" title="Ir a twitter" class="rrss"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="https://www.linkedin.com/in/sandra-garcia-a01045115/" id="go-to-equipo" title="Ir a linkedin" class="rrss"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="list-item-rrhh"><a target="_blank" href="https://github.com/SandraCGarcia" id="go-to-equipo" title="Ir a github" class="rrss"><i class="fab fa-github-alt"></i></a></li>
+              <li class="list-item-rrhh" ><a target="_blank" href="mailto:Sandra.gcanete@gmail.com" id="go-to-equipo" title="Ir a correo" class="rrss"><i class="fas fa-envelope"></i></a></li>
             </ul>
           </div>
         </main>

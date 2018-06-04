@@ -38,7 +38,7 @@ a {
   margin-right: 20px;
   margin-bottom: 13px;
 }
-.links::before{
+.links:last-child{
   margin-right: 0px;
 }
 p{
